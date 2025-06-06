@@ -61,6 +61,37 @@
         font-size: 2.2rem;
       }
 
+      /* Dope but minimal link styling for workout tables */
+      a {
+        color: #ff3b3b;
+        text-decoration: none;
+        position: relative;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      a::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #ff3b3b;
+        left: 0;
+        bottom: -2px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+
+      a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
       @media (min-width: 768px) {
         header {
           font-size: 3rem;
@@ -261,23 +292,53 @@
           <th>Sets x Reps</th>
         </tr>
         <tr>
-          <td>Pseudo Planche Pushups</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=CKdvX0l8laE"
+              target="_blank"
+              >Pseudo Planche Pushups</a
+            >
+          </td>
           <td>4 x 8-12</td>
         </tr>
         <tr>
-          <td>Diamond Pushups</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=J0DnG1_S92I"
+              target="_blank"
+              >Diamond Pushups</a
+            >
+          </td>
           <td>3 x 15-20</td>
         </tr>
         <tr>
-          <td>Pike Pushups (shoulders)</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=fXgou2W10ok"
+              target="_blank"
+              >Pike Pushups (shoulders)</a
+            >
+          </td>
           <td>4 x 10-15</td>
         </tr>
         <tr>
-          <td>Dips (Bodyweight)</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=2z8JmcrW-As"
+              target="_blank"
+              >Dips (Bodyweight)</a
+            >
+          </td>
           <td>4 x 10-12</td>
         </tr>
         <tr>
-          <td>Triceps Bench Dips</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=0326dy_-CzM"
+              target="_blank"
+              >Triceps Bench Dips</a
+            >
+          </td>
           <td>3 x 20</td>
         </tr>
       </table>
@@ -289,23 +350,51 @@
           <th>Sets x Reps</th>
         </tr>
         <tr>
-          <td>Pullups</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=eGo4IYlbE5g"
+              target="_blank"
+              >Pullups</a
+            >
+          </td>
           <td>4 x Max</td>
         </tr>
         <tr>
-          <td>Chinups</td>
+          <td>
+            <a href="https://www.youtube.com/shorts/Oi3bW9nQmGI" target="_blank"
+              >Chinups</a
+            >
+          </td>
           <td>3 x Max</td>
         </tr>
         <tr>
-          <td>Australian Rows</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=5S3Wt8y6OpE"
+              target="_blank"
+              >Australian Rows</a
+            >
+          </td>
           <td>3 x 12-15</td>
         </tr>
         <tr>
-          <td>Negative Muscle-Ups</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=Fmk7HwZpogw"
+              target="_blank"
+              >Negative Muscle-Ups</a
+            >
+          </td>
           <td>4 reps</td>
         </tr>
         <tr>
-          <td>Bicep Curls</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=sAq_ocpRh_I"
+              target="_blank"
+              >Bicep Curls</a
+            >
+          </td>
           <td>3 x 15-20</td>
         </tr>
       </table>
@@ -317,23 +406,53 @@
           <th>Sets x Time/Reps</th>
         </tr>
         <tr>
-          <td>Hanging Leg Raises</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=Pr1ieGZ5atk&t=4s"
+              target="_blank"
+              >Hanging Leg Raises</a
+            >
+          </td>
           <td>4 x 12-15</td>
         </tr>
         <tr>
-          <td>Hollow Body Hold</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=hf00_b2sRdc"
+              target="_blank"
+              >Hollow Body Hold</a
+            >
+          </td>
           <td>4 x 30 sec</td>
         </tr>
         <tr>
-          <td>Bulgarian Split Squats</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=2C-uNgKwPLE"
+              target="_blank"
+              >Bulgarian Split Squats</a
+            >
+          </td>
           <td>3 x 12 each leg</td>
         </tr>
         <tr>
-          <td>Wall Sit</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=8XdGe7vm6HQ"
+              target="_blank"
+              >Wall Sit</a
+            >
+          </td>
           <td>3 x 45-60 sec</td>
         </tr>
         <tr>
-          <td>Plank to Pushup</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=56vUOad6Irs"
+              target="_blank"
+              >Plank to Pushup</a
+            >
+          </td>
           <td>3 x 12-15</td>
         </tr>
       </table>
@@ -345,23 +464,53 @@
           <th>Sets x Reps</th>
         </tr>
         <tr>
-          <td>Weighted Dips</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=2z8JmcrW-As"
+              target="_blank"
+              >Weighted Dips</a
+            >
+          </td>
           <td>4 x 8-10</td>
         </tr>
         <tr>
-          <td>Weighted Pushups</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=uaFb6RPC_XM"
+              target="_blank"
+              >Weighted Pushups</a
+            >
+          </td>
           <td>4 x 10-12</td>
         </tr>
         <tr>
-          <td>Handstand Hold</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=eEqTkjox1us"
+              target="_blank"
+              >Handstand Hold</a
+            >
+          </td>
           <td>4 x Max hold</td>
         </tr>
         <tr>
-          <td>Planche Lean</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=wKV5zVJTYBo"
+              target="_blank"
+              >Planche Lean</a
+            >
+          </td>
           <td>4 x 20-30 sec</td>
         </tr>
         <tr>
-          <td>Pike Pushups (deep ROM)</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=yWA8a3KHJH8"
+              target="_blank"
+              >Pike Pushups (deep ROM)</a
+            >
+          </td>
           <td>3 x 12</td>
         </tr>
       </table>
@@ -373,32 +522,74 @@
           <th>Sets x Reps/Time</th>
         </tr>
         <tr>
-          <td>Weighted Pullups</td>
+          <td>
+            <a https: href="https://www.youtube.com/watch?v=wk2HkH2_3m0"
+            target="_blank" >Weighted Pullups
+          </td>
           <td>4 x 6-8</td>
         </tr>
         <tr>
-          <td>Front Lever Tuck Holds</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=ud_YVzkIF4Y"
+              target="_blank"
+              >Front Lever Tuck Holds</a
+            >
+          </td>
           <td>4 x 10-20 sec</td>
         </tr>
         <tr>
-          <td>Chinups (slow eccentric)</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=BoqOF_mHRdY"
+              target="_blank"
+              >Chinups (slow eccentric)</a
+            >
+          </td>
           <td>3 x Max</td>
         </tr>
         <tr>
-          <td>Hanging Windshield Wipers</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=ygwy2b2marI"
+              target="_blank"
+              >Hanging Windshield Wipers</a
+            >
+          </td>
           <td>3 x 10-12</td>
         </tr>
         <tr>
-          <td>Dead Hang</td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=M25ibDAVhMQ"
+              target="_blank"
+              >Dead Hang</a
+            >
+          </td>
           <td>3 x 30-60 sec</td>
         </tr>
       </table>
 
       <h2>Daily Core Mini-Routine (Optional)</h2>
       <ul>
-        <li>Hollow Body Hold – 30 sec</li>
-        <li>Hanging Knee Raises – 15 reps</li>
-        <li>Side Plank (each side) – 30 sec</li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=hf00_b2sRdc" target="_blank"
+            >Hollow Body Hold</a
+          >
+          – 30 sec
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=Pr1ieGZ5atk" target="_blank"
+            >Hanging Knee Raises</a
+          >
+          – 15 reps
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=K2VljzCC16g" target="_blank"
+            >Side Plank (each side)</a
+          >
+          – 30 sec
+        </li>
       </ul>
       <p class="note">Do 2–3x daily for faster deep core development.</p>
 
@@ -487,25 +678,36 @@
     </div>
 
     <script>
-      (() => {
+      document.addEventListener("DOMContentLoaded", () => {
         const checkbox = document.getElementById("daily-check");
         const saveBtn = document.getElementById("save-btn");
         const daysCompletedElem = document.getElementById("days-completed");
         const monthsRemainingElem = document.getElementById("months-remaining");
 
         const STORAGE_KEY = "animePhysiqueProgress";
-        const TOTAL_DAYS = 180; // 6 months approx.
+        const TOTAL_DAYS = 180;
 
-        function getToday() {
-          return new Date().toISOString().slice(0, 10);
+        function getTodayDate() {
+          return new Date().toISOString().split("T")[0];
         }
 
         function loadProgress() {
-          let data = JSON.parse(localStorage.getItem(STORAGE_KEY));
-          if (!data || !Array.isArray(data.days)) {
-            data = { days: [] };
+          let stored = localStorage.getItem(STORAGE_KEY);
+          let data = { days: [] };
+
+          if (stored) {
+            try {
+              data = JSON.parse(stored);
+              if (!Array.isArray(data.days)) {
+                data.days = [];
+              }
+            } catch (e) {
+              console.error("Failed to parse storage:", e);
+              data = { days: [] };
+            }
           }
-          const today = getToday();
+
+          const today = getTodayDate();
           checkbox.checked = data.days.includes(today);
           updateSummary(data.days.length);
           return data;
@@ -515,33 +717,31 @@
           localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
         }
 
-        function updateSummary(daysCount) {
-          daysCompletedElem.textContent = `Total Days Completed: ${daysCount} / ${TOTAL_DAYS}`;
-          const monthsLeft = Math.max(0, 6 - Math.floor(daysCount / 30));
+        function updateSummary(count) {
+          daysCompletedElem.textContent = `Total Days Completed: ${count} / ${TOTAL_DAYS}`;
+          const monthsLeft = Math.max(0, 6 - Math.floor(count / 30));
           monthsRemainingElem.textContent = `Months Remaining: ${monthsLeft}`;
         }
 
         saveBtn.addEventListener("click", () => {
           let data = loadProgress();
-          const today = getToday();
+          const today = getTodayDate();
 
-          if (checkbox.checked) {
-            if (!data.days.includes(today)) {
-              data.days.push(today);
-            }
-          } else {
-            // Uncheck means remove today's day if it exists
+          if (checkbox.checked && !data.days.includes(today)) {
+            data.days.push(today);
+          } else if (!checkbox.checked && data.days.includes(today)) {
             data.days = data.days.filter((d) => d !== today);
           }
 
           saveProgress(data);
           updateSummary(data.days.length);
-          alert("Progress saved!");
+
+          saveBtn.textContent = "Saved!";
+          setTimeout(() => (saveBtn.textContent = "Save Progress"), 1000);
         });
 
-        // Initial load
         loadProgress();
-      })();
+      });
     </script>
   </body>
 </html>
